@@ -1,0 +1,81 @@
+/* Styles for the Reusable Content extension */
+
+/* Styles for the floating icon button */
+.iconButton {
+  /* Position the icon at the bottom right corner */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  background-color: #0078d4; /* Primary color for button */
+  color: white; /* Icon color */
+  border: none;
+  border-radius: 50%; /* Circular shape */
+  width: 50px;
+  height: 50px;
+  cursor: pointer; /* Pointer cursor on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+/* Styles for the dialog container */
+.dialogContainer {
+  /* Center the dialog on the screen */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* White background */
+  padding: 20px; /* Inner padding */
+  width: 900px; /* Fixed width */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for emphasis */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Wrapper for content within the dialog */
+.contentWrapper {
+  max-height: 400px; /* Restrict maximum height */
+  overflow-y: auto; /* Enable scrolling for overflow */
+  margin-bottom: 20px; /* Space below content */
+}
+
+/* Styles for the close button in the dialog */
+.closeButton {
+  margin-top: 10px; /* Space above the button */
+  background-color: #d83b01; /* Red background for contrast */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Inner padding for click area */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Header style for the reusable content section */
+.contentHeader {
+  color: #0078d4; /* Primary color for emphasis */
+}
+
+/* Styles for the accordion header section */
+.accordionHeader {
+  display: flex; /* Align items horizontally */
+  justify-content: space-between; /* Space between title and icon */
+  align-items: center;
+  cursor: pointer; /* Indicate clickable area */
+}
+
+/* Styles for the accordion content area */
+.accordionContent {
+  display: none; /* Hidden by default */
+  padding: 10px; /* Inner padding for content */
+  border-top: 1px solid #ddd; /* Border to separate from header */
+}
+
+/* Styles for the copy icon next to accordion items */
+.copyContentIcon {
+  cursor: pointer; /* Pointer cursor for clickable icon */
+  font-size: 20px; /* Icon size */
+  margin-left: 10px; /* Space between text and icon */
+}

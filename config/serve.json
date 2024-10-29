@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://inovatreellp.sharepoint.com/sites/ITPOC/SitePages/myPage.aspx",
+      "customActions": {
+        "00c79adc-c03f-464d-ac8d-1d7dedd8adc7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "reusableContent": {
+      "pageUrl": "https://inovatreellp.sharepoint.com/sites/ITPOC/SitePages/myPage.aspx",
+      "customActions": {
+        "00c79adc-c03f-464d-ac8d-1d7dedd8adc7": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

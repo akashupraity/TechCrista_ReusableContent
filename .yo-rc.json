@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "bsone-utilities-reusablecontent",
+    "libraryId": "cb70f794-e45a-4907-b122-831acf7dc6f8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "bsone-utilities-reusablecontent",
+    "solutionShortDescription": "bsone-utilities-reusablecontent description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
